@@ -1,0 +1,136 @@
+ <!doctype html>
+<html lang="eng">
+<head>
+     <meta charset="utf-8" />
+	 <title> HTMLJS Devleopment </title> 
+	 <script src="mathematics.js"></script>
+	 <link rel="stylesheet" href="main.css">
+     <link rel="icon" type="image/png" sizes="32x32" href="favicon.png">
+	 
+	 </head>
+<body>
+     <div id="big-wrapper">
+     <header id="top_header">
+	     <h1> Welcome to Devploosond!</h1>
+	 </header>
+	 
+	 <nav id="top_menu">
+	     <ul>
+		     <li><a href="finalproject.html">Home</a></li>
+			 <li><a href="tutorials.html">Tutorials</a></li> 
+			 <li><a href="https://www.ted.com/talks">Podcast</a></li>
+		 </ul>
+	 </nav>
+	 
+	 <section id="main_section">
+	     <article>
+		     <header>
+			     <h1>BASIC MATHEMATICS</h1>
+			 </header>
+			 <p>Below you can make basic mathematics operation of any two number</p>
+			 
+		 </article>
+		 <article>
+		     <header>
+			     <hgroup>
+			     <h1>ADDITION</h1>
+				 <h2>Addition is bringing two or more numbers together to make a new total.</h2>
+				 </hgroup>
+			 </header>
+			 <form name="form1">
+			 Enter First Number :
+             <br>
+             <input type="text" oninput="this.value=this.value.replace(/[^0-9]/g,'');" id="Text1" name="TextBox1">
+             <br>Enter Second Number :
+             <br>
+             <input type="text" oninput="this.value=this.value.replace(/[^0-9]/g,'');" id="Text2" name="TextBox2">
+             <br>Result :
+             <br>
+             <input type="text" id="txtresult" name="TextBox3">
+             <br>
+             <input type="button" name="clickbtn" value="Display Result" onclick="add_number()">
+			 </form>
+			 
+		 </article>
+		 <article>
+		     <header>
+			     <hgroup>
+			     <h1>SUBTRACTION</h1>
+				 <h2>Subtraction is taking one number away from another.</h2>
+				 </hgroup>
+			 </header>
+			 <form name="form2">
+			 Enter First Number :
+             <br>
+             <input type="text" oninput="this.value=this.value.replace(/[^0-9]/g,'');" id="Text1" name="TextBox1">
+             <br>Enter Second Number :
+             <br>
+             <input type="text" oninput="this.value=this.value.replace(/[^0-9]/g,'');" id="Text2" name="TextBox2">
+             <br>Result :
+             <br>
+             <input type="text" id="txtresult" name="TextBox3">
+             <br>
+             <input type="button" name="clickbtn" value="Display Result" onclick="sub_number()">
+			 </form>
+			 
+		 </article>
+		 <article>
+		     <header>
+			     <hgroup>
+			     <h1>MULTIPLICATION</h1>
+				 <h2>Multiplication is taking one bumber times another.</h2>
+				 </hgroup>
+			 </header>
+			 <form name="form3">
+			 Enter First Number :
+             <br>
+             <input type="text" oninput="this.value=this.value.replace(/[^0-9]/g,'');" id="Text1" name="TextBox1">
+             <br>Enter Second Number :
+             <br>
+             <input type="text" oninput="this.value=this.value.replace(/[^0-9]/g,'');" id="Text2" name="TextBox2">
+             <br>Result :
+             <br>
+             <input type="text" id="txtresult" name="TextBox3">
+             <br>
+             <input type="button" name="clickbtn" value="Display Result" onclick="multi_number()">
+			 </form>
+			 
+		 </article>
+		 <article>
+		     <header>
+			     <hgroup>
+			     <h1>DIVISION</h1>
+				 <h2>Division is splitting into equal parts or groups.</h2>
+				 </hgroup>
+			 </header>
+			 <form name="form4">
+			 Enter First Number :
+             <br>
+             <input type="text" oninput="this.value=this.value.replace(/[^0-9]/g,'');" id="Text1" name="TextBox1">
+             <br>Enter Second Number :
+             <br>
+             <input type="text" oninput="this.value=this.value.replace(/[^0-9]/g,'');" id="Text2" name="TextBox2">
+             <br>Result :
+             <br>
+             <input type="text" id="txtresult" name="TextBox3">
+             <br>
+             <input type="button" name="clickbtn" value="Display Result" onclick="divide_number()">
+			 </form>
+			 
+		 </article>
+	 </section>
+	 
+	 
+	 <aside id="side_news">
+	        <h4>Find me on Gitub</h4>
+             <a href="https://github.com/dprazool">Devloosond on XDA forum</a>
+	 </aside>
+	 
+	 <footer id="the_footer">
+	         Copyright © 2017 GhostInTownHTMLJS.com
+	 </footer>
+	 </div>
+	 
+	 
+</body>
+</html>
